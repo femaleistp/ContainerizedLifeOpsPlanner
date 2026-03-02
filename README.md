@@ -31,3 +31,7 @@
 6. Stop containers:
 
    docker compose down
+
+## SQL Verification (Optional)
+
+sqlcmd -S 127.0.0.1,14333 -U sa -P "<your password>" -C -Q "SELECT name FROM sys.databases"
