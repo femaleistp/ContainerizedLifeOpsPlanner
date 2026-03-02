@@ -40,7 +40,7 @@ namespace LifeOpsPlanner_Project
             using (ProjectDbContext db = new ProjectDbContext(builder.Options))
             {
                 db.Database.Migrate(); // keep always
-                ReseedDataOnly_MeAndEli(db); // optional (demo reset)
+                // ReseedDataOnly_MeAndEli(db); // optional (demo reset)
 
                 ActivityEntryEfRepository efRepo = new ActivityEntryEfRepository(db);
 
