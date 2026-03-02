@@ -1,0 +1,5 @@
+
+# Local dev only
+Properties/launchSettings.json
+.env
+
